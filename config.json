@@ -1,0 +1,24 @@
+{
+  "upstream_base_url": "https://api.justwoker.icu/v1",
+  "api_key": "sk-SAg6eunOBZ7YXX2RlirdhB7FjPSthGYm95fMXpWRWdaHV2FQ",
+  "fallback_api_keys": [
+    "sk-SAg6eunOBZ7YXX2RlirdhB7FjPSthGYm95fMXpWRWdaHV2FQ"
+  ],
+  "listen_host": "127.0.0.1",
+  "listen_port": 8181,
+  "model": "claude-opus-4-8",
+  "upstream_timeout_s": 300,
+  "features": {
+    "tool_injection": true,
+    "strict_tool_names": true,
+    "flatten_tool_history": true,
+    "strip_thinking": true,
+    "curb_thinking": true,
+    "enforce_max_tokens": true,
+    "enforce_stop_sequences": true,
+    "usage_mode": "normalized",
+    "usage_baseline_tokens": 50000,
+    "max_input_tokens": 200000
+  },
+  "ui_lang": "en"
+}

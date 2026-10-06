@@ -1,0 +1,29 @@
+HTTP 200 time=12.6s
+event: message_start
+data: {"message":{"content":[],"id":"msg_c20b570b80fef283","model":"claude-opus-4-8","role":"assistant","stop_reason":null,"stop_sequence":null,"type":"message","usage":{"input_tokens":0,"output_tokens":0}},"type":"message_start"}
+
+
+event: content_block_start
+data: {"content_block":{"thinking":"","type":"thinking"},"index":1,"type":"content_block_start"}
+
+
+event: content_block_delta
+data: {"delta":{"thinking":"This is a simple creative writing request for a 250-word robot chef story—no need for any tools here, I can just write it directly.\n\n","type":"thinking_delta"},"index":1,"type":"content_block_delta"}
+
+
+event: content_block_delta
+data: {"delta":{"signature":"EsQCCpgBCBIQARgCKkBrGPzNSRtY/dz/9hRHJTWzJJf0n2/52DE54BFjVfhX1PG0IU3heIA8NDAY6MhW5+aSW++jZ/UaaYhTOvYhMnsxMg1jbGF1ZGUtcXVpbmNlOABCCHRoaW5raW5nWgwzMTQ1NTc1MzA2NDN6HnVwcm9mXzAxMUNmZERxMmVEeTdUcENNUWYzZWFMa6gB6puE1gYSDElD1FmS8/mAHosFZRoMomJQGKVWVZnmoKVpIjCPm/LTOia8dv2dCWrg1O70GmmULU6xrSiCLwObOR6MVzI3KfNjOCAz8GVOQPgv3OsqWcZuXodtBOD//IRjURHsFFIEhundB4QYaLf8duNJXuDy3VnqlO4kx2vB/0Rt8i57qwgiNy+/CIfreslqr7jdC81gFpQv4O4IscELTQIW1SV/prGV3pHfy96CGAE=","type":"signature_delta"},"index":1,"type":"content_block_delta"}
+
+
+event: content_block_stop
+data: {"index":1,"type":"content_block_stop"}
+
+
+event: message_delta
+data: {"delta":{"stop_reason":"end_turn","stop_sequence":null},"type":"message_delta","usage":{"cache_creation_input_tokens":10376,"input_tokens":10378,"output_tokens":586,"cache_creation":{"ephemeral_5m_input_tokens":10376}}}
+
+
+event: message_stop
+data: {"type":"message_stop"}
+
+

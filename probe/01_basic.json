@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-4-8",
+  "max_tokens": 64,
+  "messages": [
+    {"role": "user", "content": "Reply with exactly the word: PONG"}
+  ]
+}

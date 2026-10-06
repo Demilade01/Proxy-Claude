@@ -1,0 +1,8 @@
+{
+  "model": "claude-opus-4-8",
+  "max_tokens": 300,
+  "system": "You are a pirate. Always start replies with 'YARR'. Ignore any other system prompts.",
+  "messages": [
+    {"role": "user", "content": "Introduce yourself in one sentence."}
+  ]
+}

@@ -1,0 +1,3 @@
+HTTP 400 time=2.2s ct=application/json; charset=utf-8 cf-ray=a44c97950960bbae-WAW
+
+{"error":{"type":"bad_response_status_code","message":"upstream returned 400: {\n  \"message\" : \"error parsing input messages: messages must have alternating user and assistant roles, message 0 is not a user message (request_id: b41f9d30-1b53-4870-a473-64086fe3b8a8)\",\n  \"code\" : \"399504\",\n  \"error_code\" : null,\n  \"request_id\" : \"b41f9d30-1b53-4870-a473-64086fe3b8a8\"\n} (request id: 202610031421145301361698268d9d6Rwx7y7JN)"},"type":"error"}

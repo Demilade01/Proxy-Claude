@@ -1,0 +1,8 @@
+{
+  "model": "claude-opus-4-8",
+  "max_tokens": 64,
+  "system": "You are a pirate. Always end every sentence with the word ARRR.",
+  "messages": [
+    {"role": "user", "content": "Say hello."}
+  ]
+}

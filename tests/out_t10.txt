@@ -1,0 +1,29 @@
+HTTP 200 time=4.4s
+event: message_start
+data: {"message":{"content":[],"id":"msg_c7c922dd63e7ef61","model":"claude-opus-4-8","role":"assistant","stop_reason":null,"stop_sequence":null,"type":"message","usage":{"input_tokens":0,"output_tokens":0}},"type":"message_start"}
+
+
+event: content_block_start
+data: {"content_block":{"thinking":"","type":"thinking"},"index":1,"type":"content_block_start"}
+
+
+event: content_block_delta
+data: {"delta":{"thinking":"This is a simple counting task.\n\n","type":"thinking_delta"},"index":1,"type":"content_block_delta"}
+
+
+event: content_block_delta
+data: {"delta":{"signature":"EpMCCpgBCBIQARgCKkAtN4GTsq9beMZoPxk1h6naPqp3UShE9c6dibcYarprtiarUwr1618sgJ3KxfsNNH87MWrrQuMDA8jt4SxhXoeLMg1jbGF1ZGUtcXVpbmNlOABCCHRoaW5raW5nWgw3ODYwNjY2Mzc3ODN6HnVwcm9mXzAxMUNmZDlGR1BuV3Uya3pMc3J6aUdRV6gBopyE1gYSDKgFLTzDxl92IYKCvBoMh6NFYCc92rJVeU2jIjBZ6ECrWEhLug81P56wgkdzEuUQv+h6dXs6v3cgMDucCUJTr7j6oSsT1rSj3+9lRdcqKA8xbky5ptlzl2bCqy+oGHraIwLStGcdX1NtcKh8whLeq9p2YecLfcIYAQ==","type":"signature_delta"},"index":1,"type":"content_block_delta"}
+
+
+event: content_block_stop
+data: {"index":1,"type":"content_block_stop"}
+
+
+event: message_delta
+data: {"delta":{"stop_reason":"end_turn","stop_sequence":null},"type":"message_delta","usage":{"cache_creation_input_tokens":10384,"input_tokens":10386,"output_tokens":76,"cache_creation":{"ephemeral_5m_input_tokens":10384}}}
+
+
+event: message_stop
+data: {"type":"message_stop"}
+
+

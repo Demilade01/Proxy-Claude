@@ -1,0 +1,8 @@
+{
+  "model": "claude-opus-4-8",
+  "max_tokens": 500,
+  "stream": true,
+  "messages": [
+    {"role": "user", "content": "Say exactly: PROTOCOL-TEST-STREAM-OK then stop."}
+  ]
+}

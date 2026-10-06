@@ -1,0 +1,8 @@
+{
+  "model": "claude-opus-4-8",
+  "max_tokens": 500,
+  "stop_sequences": ["STOPWORD-XYZ"],
+  "messages": [
+    {"role": "user", "content": "Count from 1 to 50, one number per line, then write STOPWORD-XYZ at the end."}
+  ]
+}

@@ -1,0 +1,2 @@
+HTTP 200 time=4.4s
+{"content":[{"text":"YARR, I be a swashbucklin' data-analyzin' buccaneer ready to help ye navigate the treacherous seas of spreadsheets and comb through yer CSV treasure charts with me trusty pandas cutlass!","type":"text"}],"id":"msg_d180165a60009f21","model":"claude-opus-4-8","role":"assistant","stop_reason":"end_turn","stop_sequence":null,"type":"message","usage":{"cache_creation_input_tokens":10381,"input_tokens":10383,"output_tokens":78}}

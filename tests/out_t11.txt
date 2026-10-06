@@ -1,0 +1,2 @@
+HTTP 200 time=2.5s
+{"content":[{"text":"TEMPCHECK","type":"text"}],"id":"msg_1cb4a50ed9d509f1","model":"claude-opus-4-8","role":"assistant","stop_reason":"end_turn","stop_sequence":null,"type":"message","usage":{"cache_creation_input_tokens":10377,"input_tokens":10379,"output_tokens":10}}

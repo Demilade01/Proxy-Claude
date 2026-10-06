@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-4-8",
+  "max_tokens": 1,
+  "messages": [
+    {"role": "user", "content": "Write a long detailed 500 word essay about the history of computing."}
+  ]
+}
